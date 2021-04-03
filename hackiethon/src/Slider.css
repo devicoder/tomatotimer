@@ -1,0 +1,27 @@
+.slider {
+  position: relative;
+  background: #f1a4a4;
+  height: 3rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.slider-animation {
+  background: #c00010;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+.timer-remaining {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 4rem;
+}
